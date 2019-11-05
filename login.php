@@ -20,14 +20,14 @@ if( (isset($_POST['pseudo'])) && (!empty($_POST['pseudo'])) )
   if( ($pseudo == "User1") && ($password == "1234") )
   {
     $_SESSION['login'] = 1;
-    $_SESSION['pseudo'] = "Vans";
+    $_SESSION['pseudo'] = "User1";
     $win = true;
   }
 
   elseif (($pseudo == "User2") && ($password == "5678")) 
    {
       $_SESSION['login'] = 2;
-      $_SESSION['pseudo'] = "Trace";
+      $_SESSION['pseudo'] = "User2";
       $win = true;
   }
 
@@ -58,7 +58,7 @@ if( (isset($_POST['pseudo'])) && (!empty($_POST['pseudo'])) )
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Formapro63 - Admin</title>
+    <title>Admin</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
 
