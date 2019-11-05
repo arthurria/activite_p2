@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+include('co-sql.php');
+
 if ((isset($_SESSION['login'])) || (!empty($_SESSION['login'])))
 { 
   $_SESSION = array();  
